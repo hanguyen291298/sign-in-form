@@ -1,6 +1,6 @@
 :root{
-    --font-title: #D5FFD0;
-    --font-content: #AEC3AE;
+    --font-title: #F6F1F1;
+    --font-content: #F6F1F1;
     --bgr-color: #262626;
     --margin-fixed: 30px;
     --font-family: 'Roboto Slab', serif;
@@ -28,14 +28,15 @@ img{
 .container{
     margin-left: 50px;
     margin-top: 50px;
+    padding: 10px;
     width: 60vw;
     height: 80vh;
     background-color: transparent;
-    box-shadow: 2px 2px 10px white;
+    box-shadow:  8px 8px 10px white, 8px 8px 10px white, -8px -8px 10px white, -8px -8px 10px white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 20px solid grey;
+    border: 10px solid grey;
     border-radius: 5px;
     gap: 20px;
     
@@ -43,7 +44,7 @@ img{
 
 .introduction{
     font-size: var(--font-size-title);
-    margin: var(--margin-fixed) 100px;
+    margin: var(--margin-fixed) 90px;
     color: var(--font-title);
 }
 
@@ -51,6 +52,7 @@ img{
     display: flex;
     gap: 50px;
     font-size: var(--font-size-content);
+    
     
 }
 
@@ -75,7 +77,10 @@ input{
 .message{
     align-self: flex-end;
 }
+.message label{
+    font-size: var(--font-size-title)
+}
 button{
     width: 80px;
-    margin-top: var(--margin-fixed);
+    margin-top: 20px;
 }
