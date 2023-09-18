@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hanguyen-sign-in-form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
+        <div class="introduction">This is a model form that i make through learning. But for sure, it will be added into my website in the future soon. So I will still want to make it as good as my expectation.</div>
+        <div class="form">
+            <form action="" method="get">
+                
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" required>
+            
+                
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name">
+                
+                
+                    <label for="your_email">Email</label>
+                    <input type="email" name="your_email" id="your_email" placeholder="tom123@example.com" required>
+                
+                
+                    <label for="your_password">Password</label>
+                    <input type="password" name="your_password" id="your_password" minlength="8" maxlength="20">
+                
+                
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" name="confirm_password" id="confirm_password" required>
+                
+                <button type="submit">Create account</button>
+            </form>
+            <div class="message">
+                <label for="send_message">Send me a message to improve the site!</label><br>
+                <textarea name="send_message" id="send_message" cols="40" rows="8"></textarea>
+                <button type="submit">send</button>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="logo">
+        <img src="logo.png" alt="logo">
+    </div>
+    
     
 </body>
 </html>
